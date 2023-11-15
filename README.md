@@ -59,6 +59,9 @@ URL: http://127.0.0.1:8000/get_form/ POST
 Body:
 field_name=field_type
 
+### field_name это название поля, field_type это тип поля который нужно отправить.
+### Данные поля можно посмотреть в db.json
+
 # Технологии
 + Python
 + Django
