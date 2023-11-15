@@ -53,6 +53,12 @@ ALLOWED_HOSTS=localhost,127.0.0.1
 ```
 Примечание: SECRET_KEY должен быть уникальным и сложным. Не используйте тот, что указан в примере.
 
+# Как сделать свой запрос
+На примере postman:
+URL: http://127.0.0.1:8000/get_form/ POST
+Body:
+field_name=field_type
+
 # Технологии
 + Python
 + Django
